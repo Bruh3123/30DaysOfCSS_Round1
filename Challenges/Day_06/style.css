@@ -3,7 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: palevioletred;
+    background-color: rgb(0, 85, 255);
 }
 
 .heart {
@@ -26,8 +26,9 @@ body {
     transform: translateY(-50%);
     border-radius: 50%;
 }
+
 .heart:after {
-    content:'' ;
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -40,15 +41,15 @@ body {
 
 @keyframes beat {
     0% {
-      transform:  rotate(45deg) scale(1);
+        transform: rotate(45deg) scale(1);
     }
     25% {
-      transform:  rotate(45deg) scale(1);
+        transform: rotate(45deg) scale(1);
     }
     50% {
-      transform:  rotate(45deg) scale(1.2);
+        transform: rotate(45deg) scale(1.2);
     }
     100% {
-      transform:  rotate(45deg) scale(1);
+        transform: rotate(45deg) scale(1);
     }
 }
